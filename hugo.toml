@@ -1,0 +1,28 @@
+baseURL = 'https://example.com'
+languageCode = 'zh-CN'
+title = 'ACG情报站'
+theme = 'PaperMod'
+
+[params]
+  author = '陈俊霖'
+  description = '最新ACG资讯、评测、推荐'
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = '首页'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    identifier = 'anime'
+    name = '动画'
+    url = '/categories/动画/'
+    weight = 20
+  [[menu.main]]
+    identifier = 'manga'
+    name = '漫画'
+    url = '/categories/漫画/'
+    weight = 30
