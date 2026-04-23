@@ -1,4 +1,4 @@
-baseURL = 'https://acg-site.pages.dev/'
+baseURL = 'https://acg-site.pages.dev'
 languageCode = 'zh-CN'
 title = 'ACG情报站'
 theme = 'PaperMod'
